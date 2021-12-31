@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LotActivity">
+
+    <ImageView
+        android:src="@drawable/car_park_for_1st_lot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:id="@+id/carParkPlaceImageView"/>
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carParkPlaceImageView">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:text="Empty The Lot"
+            android:elevation="10dp"
+            android:enabled="true"
+            android:ems="8"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/fillTheLot"
+            android:textColor="@color/white"
+            android:background="@drawable/empty_selector"
+            android:id="@+id/emptyTheLot"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill The Lot"
+            android:elevation="10dp"
+            android:ems="8"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:enabled="true"
+            android:background="@drawable/fill_selector"
+            android:id="@+id/fillTheLot"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

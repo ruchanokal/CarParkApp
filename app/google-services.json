@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149810783325",
+    "project_id": "mobilecarapp-3c8c2",
+    "storage_bucket": "mobilecarapp-3c8c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149810783325:android:2e8d2e3183fca0bf14d9b4",
+        "android_client_info": {
+          "package_name": "com.example.mobilecarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149810783325-3hv67da77tp2gu6datjml4a8g7e78243.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc4Jlw9mF1IyiI0xiXTYf71KzUaiPHMcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149810783325-3hv67da77tp2gu6datjml4a8g7e78243.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
